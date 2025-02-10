@@ -24,5 +24,9 @@ public class Controleer {
 	public List<Student> all(){
 		return ss.getall();
 	}
+	@GetMapping("/hi")
+	public String hi() {
+		return "hi";
+	}
 
 }
